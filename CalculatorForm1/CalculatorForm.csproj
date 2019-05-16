@@ -7,7 +7,7 @@
     <ProjectGuid>{AE1492BD-496A-4A64-8468-65DCE2F337E7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>CalculatorForm1</RootNamespace>
-    <AssemblyName>CalculatorForm1</AssemblyName>
+    <AssemblyName>CalculatorForm</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

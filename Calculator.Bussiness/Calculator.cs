@@ -15,25 +15,25 @@ namespace Calculator.Bussiness
             double sum = number1 + number2;
             return sum;
         }
-        private static double Product(double number1, double number2)
+        public static double Product(double number1, double number2)
         {
             double prod = number1 * number2;
             return prod;
         }
-        private static double Divide(double number1, double number2)
+        public static double Divide(double number1, double number2)
         {
-                double divide = number1 % number2;
+                double divide = number1 / number2;
                 return divide;
         }
-        private static double Subtract(double number1, double number2)
+        public static double Subtract(double number1, double number2)
         {
             double subtract = number1 - number2;
             return subtract;
         }
 
-        private static double Mod(double number1, double number2)
+        public static double Mod(double number1, double number2)
         {
-            double mod = number1 / number2;
+            double mod = number1 % number2;
             return mod;
         }
         
@@ -54,11 +54,11 @@ namespace Calculator.Bussiness
                     double prod1 = Product(number1, number2);
                     Console.WriteLine("The product of two numebrs is {0}", prod1);
                     return prod1;
-                case "%":
+                case "/":
                     double div1 = Divide(number1, number2);
                     Console.WriteLine("The division of two numebrs is {0}", div1);
                     return div1;
-                case "/":
+                case "%":
                     double mod1 = Mod(number1, number2);
                     Console.WriteLine("The division of two numebrs is {0}", mod1);
                     return mod1;
